@@ -1,0 +1,9 @@
+@host="http://localhost:5244"
+POST http://localhost:5244/api/auth/login
+Content-Type: application/json
+
+{
+    "email":"ahmed@test.com",
+    "password":"133456"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiYzc4MDAwOC00OGQ1LTQ3MDItOTA4Zi1hNTlmYmNkYThlNWQiLCJnaXZlbl9uYW1lIjoiYWhtZWQiLCJmYW1pbHlfbmFtZSI6Im5hemVlciIsImp0aSI6ImY5OTg0NjBkLWNkM2QtNGNiYi05YzFiLTc5OGRkOThkNzE3NyIsImV4cCI6MTY3ODk5NDg0MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIn0.EAk-0ApKj1fTsVxgUXDYX3L38wHDJzSssK939dzijMo
